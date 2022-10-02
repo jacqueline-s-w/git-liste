@@ -1,4 +1,4 @@
-Git Befehle/ Basics
+# **Git Befehle/ Basics**
 
 git init
 >ein bestehendes URL herunterladen oder ein neues Repository anlegen
