@@ -1,3 +1,4 @@
+````
 # Wir sind ein Heading h1
 ## wir sind ein heading h2
 ### wir sind ein heading h3
@@ -19,12 +20,12 @@ ________________________________________
 <!-- Liste ul und ol  -->
 * item 1
 * item 2
-* Dies ist eine ungeordnete Liste 
+* Dies ist eine ungeordnete Liste
     * hier ist eine liste in der liste.
 
 1. item 1
 1. item 2
-1. Dies ist eine Geordnete Liste 
+1. Dies ist eine Geordnete Liste
     1. hier ist eine liste in der liste
 ________________________________________
 
@@ -45,22 +46,31 @@ ________________________________________
 ```bash
 touch index.html
 
-```
-_______________________________________
+````
+
+---
+
 ```Javascript
 const name= 'Max'
 function getInfo(){
-    
+
 }
 
 ```
-________________________________________
+
+---
+
 ```html
-<p> Hier ist eine Paragraph </p>
+<p>Hier ist eine Paragraph</p>
 ```
-________________________________________
+
+---
 
 ```python
-def get info (name, adress) : 
+def get info (name, adress) :
     return name;
+```
+
+```
+
 ```
