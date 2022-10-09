@@ -46,7 +46,7 @@ ________________________________________
 ```bash
 touch index.html
 
-````
+```
 
 ---
 
@@ -70,7 +70,4 @@ function getInfo(){
 def get info (name, adress) :
     return name;
 ```
-
-```
-
-```
+````
