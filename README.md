@@ -19,3 +19,7 @@
 ![Branches](./images/branches.png)
 
 ![CSS Units](./images/css_units.png)
+
+![CSS Wichtigkeit](./images/css-wichtigkeit.png)
+
+![Object Fit](./images/object-fit.png)
