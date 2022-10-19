@@ -1,0 +1,73 @@
+/* 
+.main-content {
+  background-color: aqua;
+  margin: auto;
+  width: 70vw;
+  height: 150px;
+  overflow: auto;
+}
+
+overflow: visible -> Standardwert -> Inhalt fließt über den container.
+
+overflow: hidden -> Schneidet den Inhalt am Ende des containers einfach ab.
+
+overflow: scroll -> Das gleiche wie bei hidden, aber es werden scrollbars hinzugefügt und man kann runterscrollen um den restlichen Inhalt zu sehen.
+
+overflow: auto -> Ähnlich wie scroll, aber fügt die scrollbars nur hinzu wenn sie gebraucht werden.
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.article-section article {
+  width: 45%;
+}
+
+.aside-section div,
+aside {
+  width: 45%;
+  display: inline-block;
+}
+
+aside {
+  border-left: 2px solid hotpink;
+  border-bottom: 2px solid hotpink;
+  background-color: rgb(215, 212, 212);
+  padding: 5px;
+}
+
+code {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px;
+}
+footer {
+  margin: 100px auto;
+  padding: 15px;
+  background-color: rgb(215, 212, 212);
+  text-align: center;
+}
