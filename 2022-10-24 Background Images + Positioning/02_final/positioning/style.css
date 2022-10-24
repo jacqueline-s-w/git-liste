@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-size: 120%;
+}
+
+/* RELATIVE */
+
+.relative {
+  border: 1px solid chartreuse;
+  width: 300px;
+  position: relative;
+  left: 200px;
+}
+
+/* ABSOLUTE */
+
+.relative-2 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid blueviolet;
+}
+
+.absolute {
+  position: absolute;
+  border: 3px solid blueviolet;
+  /* width: 200px; */
+  height: 100px;
+  top: 60px;
+  right: 20px;
+}
+
+/* STICKY */
+
+.stickybox {
+  margin: 20px auto;
+  width: 50%;
+  height: 150px;
+  border: 2px solid magenta;
+  overflow: scroll;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  background-color: bisque;
+  border: 2px solid orangered;
+}
+
+/* FIXED */
+
+.fixedbox {
+  height: 1000px;
+  border: 2px solid blue;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  background-color: bisque;
+  border: 2px solid green;
+}
+
+/* Z-INDEX */
+
+.index {
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.top {
+  background-color: midnightblue;
+  position: relative;
+  z-index: 0;
+}
+
+.bottom {
+  background-color: orangered;
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+  z-index: 1;
+}
