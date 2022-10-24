@@ -23,6 +23,18 @@
 
 ![CSS Units](./images/css_units.png)
 
+![CSS % Example](./images/css_percent_example.png)
+
+![CSS em Example](./images/em_css_example.png)
+
+![CSS rem Example](./images/rem_css_example.png)
+
+![CSS vh Example](./images/vh_css_example.png)
+
+![CSS vw Example](./images/vw_css_example.png)
+
 ![CSS Wichtigkeit](./images/css-wichtigkeit.png)
+
+![box-sizing: border-box](./images/box-sizing-border-box.png)
 
 ![Object Fit](./images/object-fit.png)
