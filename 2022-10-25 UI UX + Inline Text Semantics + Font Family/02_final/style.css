@@ -1,0 +1,37 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap");
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  background-color: yellow;
+}
+
+span {
+  color: hotpink;
+}
+
+/* FONTS */
+
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+.sans-serif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GOOGLE FONTS */
+p.noto {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
