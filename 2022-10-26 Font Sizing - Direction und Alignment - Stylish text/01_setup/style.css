@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  /* 16px * 62,5 % = 10px -> 1rem */
+  font-size: 62.5%;
+}
+span {
+  color: hotpink;
+}
+
+/* font-family */
+
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  background-color: yellow;
+}
+
+/* Fonts */
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+.sans-serif {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Google Fonts */
+.noto {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+/* Direction & Alignment */
+
+.rtl {
+  direction: rtl;
+  /* writing-mode: vertical-rl;
+  text-orientation: upright;
+  */
+}
+
+#align {
+  text-align: justify;
+  /* right, left, center */
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* ************************ */
+
+/* vererbter-uppercase
+text-transform: uppercase
+*/
+
+.random {
+  text-transform: capitalize;
+  text-align: right;
+}
+
+.transform {
+  text-transform: lowercase;
+}
+
+li:first-child {
+  text-decoration: underline;
+}
+
+li:last-child {
+  text-decoration: line-through;
+}
+
+/* .unterstrichen{
+  text-decoration: unterline;
+ }
+
+.durchgestrichen {
+  text-decoration: line-through;
+}
+  */
+
+/* ******************** */
+
+.shadow {
+  /* text-shadow: offset-x | offset-y | blur-radius | color; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
