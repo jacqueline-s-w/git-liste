@@ -55,6 +55,16 @@ h3 {
   width: 75%;
   margin: 0 auto;
 }
+#align::before,
+#align::after {
+  content: "";
+  display: inline-block;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+}
 
 /* ************************ */
 
