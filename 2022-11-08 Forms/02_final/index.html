@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UIB - Data - Forms - Live Coding 01</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>Contact Form</header>
+
+    <!-- action - wohin die Daten gesendet werden, z. B. eine URL -->
+    <form action="https://formspree.io/xoqkgnqo" method="POST">
+      <!-- fieldset wird verwendet, um mehrere Steuerelemente sowie Beschriftungen innerhalb eines Webformulars zu gruppieren -->
+      <fieldset>
+        <!-- Legende stellt eine Beschriftung für den Inhalt des übergeordneten Feldsatzes dar -->
+        <legend>Your Details:</legend>
+        <div>
+          <!-- das Element "label" ist visuell UND programmatisch mit der entsprechenden Texteingabe verbunden, indem das Attribut "for" verwendet wird -->
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname" id="firstname" maxlength="30" />
+        </div>
+        <div>
+          <label for="surname">Surname:</label>
+          <input type="text" name="surname" id="surname" maxlength="50" />
+        </div>
+        <!-- name steht für den Namen des zugehörigen Datenpunkts, der an den Server übermittelt wurde -->
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+      </fieldset>
+
+      <!-- ******************************************* -->
+
+      <fieldset>
+        <legend>Your Programming Experience</legend>
+        <p>Select your favourite language</p>
+        <!-- Radio Buttons! = das eine oder das andere (oder das andere..) -->
+        <div>
+          <input type="radio" id="java" name="language" value="java" checked />
+          <label for="java">Java</label>
+        </div>
+        <div>
+          <input type="radio" id="haskell" name="language" value="haskell" />
+          <label for="haskell">Haskell</label>
+        </div>
+        <div>
+          <input type="radio" id="python" name="language" value="python" />
+          <label for="python">Python</label>
+        </div>
+        <!-- ******************************************* -->
+        <p>What careers are you considering?</p>
+        <!-- Kontrollkästchen! (checkbox) - erlaubt mehrere Auswahlmöglichkeiten -->
+        <div>
+          <input
+            type="checkbox"
+            name="career"
+            value="web-developer"
+            id="career-web-dev"
+            checked
+          />
+          <label for="career-web-dev">Web Developer</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="career"
+            value="web-designer"
+            id="career-web-design"
+          />
+          <label for="career-web-design">Web Designer</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="career"
+            value="dev-ops"
+            id="career-dev-ops"
+          />
+          <label for="career-dev-ops">Dev Ops</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="career"
+            value="sys-admin"
+            id="career-sys-admin"
+          />
+          <label for="career-sys-admin">Sys Admin</label>
+        </div>
+        <div class="experience">
+          <label for="experience">Tell us about your experience:</label>
+          <textarea
+            name="experience"
+            id="experience"
+            cols="30"
+            rows="5"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <!-- ************************************* -->
+
+      <div class="select">
+        <label for="reference">How did you find us?</label>
+        <select name="reference" id="reference">
+          <!-- das option-Element stellt Menüpunkte in Popups und anderen Listen von Elementen in einem HTML-Dokument dar -->
+          <option value="internet">Internet</option>
+          <option value="television">Television</option>
+          <option value="poster">Poster</option>
+          <option value="friend-family">Friend / Family</option>
+          <option value="newspaper">Newspaper</option>
+          <option value="social">Social Media</option>
+        </select>
+      </div>
+      <div class="submit">
+        <button class="btn-submit">Apply Now</button>
+      </div>
+    </form>
+  </body>
+</html>
