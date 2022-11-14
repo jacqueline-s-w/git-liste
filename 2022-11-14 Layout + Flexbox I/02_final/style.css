@@ -1,0 +1,68 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+
+/* *********************************************** */
+
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+
+  /* Standardrichtung ist Reihe  - MAIN-AXIS*/
+
+  justify-content: center;
+
+  /* flex-direction: column; */
+  /* column is CROSS-AXIS */
+
+  /* align-items: center; */
+}
+
+.flexitem {
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid black;
+  background-color: hotpink;
+
+  /* Verwendung von Flexbox innerhalb von Flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ********************************** */
+
+/* flexwrap - legt fest, ob Flex-Elemente in eine Zeile gezwungen werden oder sich über mehrere Zeilen erstrecken können */
+
+.flex-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* flex-wrap: nowrap; */
+
+  /* flex-direction: column-reverse; */
+
+  /* flex-direction: row-reverse; */
+
+  /* flex-flow: flex-direction flex-wrap */
+
+  flex-flow: row nowrap;
+}
+
+.flex-container-wrap .flexitem-wrap {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid black;
+  background-color: chartreuse;
+}
