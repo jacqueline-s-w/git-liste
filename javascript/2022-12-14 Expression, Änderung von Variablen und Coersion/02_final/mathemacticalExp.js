@@ -1,9 +1,9 @@
 // Mathematical expressions:
 // +, -, *, /, modulo- %, exponentiation- **
 
-console.log(1 + 1);         // 2
-console.log("1 + 100");     // 1 + 100
-console.log(1 + 100);       // 101
+console.log(1 + 1); // 2
+console.log("1 + 100"); // 1 + 100
+console.log(1 + 100); // 101
 
 // concatenation
 console.log("Hello" + "World");
@@ -11,14 +11,14 @@ console.log("2" + "3");
 console.log("Good morning" + "Class" + 32);
 
 // modulo: % gibt den Restbetrag zurück
-console.log(10 % 3);        // 1
-console.log(500 % 2);       // 0
+console.log(10 % 3); // 1
+console.log(500 % 2); // 0
 
 // Operand: ist das, worauf die Operatoren angewendet werden.
-let varOne = 8; 
+let varOne = 8;
 console.log(varOne); // 8
 // Neuzuordnung von varOne
-varOne = -varOne;   // unary
+varOne = -varOne; // unary
 console.log(varOne); // -8
 
 // 5 * 2 : 2 operands 5 and 2.
@@ -58,10 +58,10 @@ console.log("2" + (2 + 1)); // 23
 // Declaration
 let myVar = 2;
 myVar = myVar + 5;
-console.log("myVar is " + myVar);   // myVar is 7
+console.log("myVar is " + myVar); // myVar is 7
 
 myVar = myVar * 2;
-console.log("myVar ist " + myVar);   // myVar ist 14
+console.log("myVar ist " + myVar); // myVar ist 14
 // Neuzuweisung
 myVar += 5;
 myVar *= 2;
@@ -84,5 +84,36 @@ console.log("Counter is " + counter2); // Counter is 1
 // console.log(5++); error!!!
 
 let counter3 = 2;
-++counter3; // prefix form
-console.log("Counter is " + counter3); // Counter is 3
+// prefix form
+console.log("Counter is " + ++counter3); // Counter is 2
+console.log("Counter is " + counter3);
+
+// prefix form wird immer vor allen anderen Oparationen ausgeführt. Die Postfixform jedoch nicht.
+
+let postfixForm = 5;
+let prefixForm = 5;
+
+console.log(postfixForm++); // 5, weil der console.log vorher ausgeführt wird und dann erst die Rechenoperation.
+
+/**
+ * CodeAblauf:
+ * ->console.log(postfixForm);
+ * ->postfixForm++
+ * ->console.log(postfixForm);
+ */
+
+console.log(postfixForm); // 6
+
+console.log(++prefixForm); // 6 weil die Rechenoperation wird zuerst ausgeführt, dann wird der console.log ausgeführt.
+
+/**Erklärung in anderen Wort von Christian:
+ *
+ * prefixform -> erst Schrank auseinander bauen
+ * und dann die Bretter in den Transporter laden
+ *
+ * postfixform -> erst Schrank in den Transporter laden
+ * und dann auseinanderbauen
+ *
+ * (console.log -> in den Transporter laden,
+ *  ++ -> Schrank auseinander bauen)
+ */
