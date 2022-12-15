@@ -1,0 +1,105 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+
+/* ***************************************** */
+
+.flex-container {
+  display: flex;
+}
+
+.item {
+  height: 20rem;
+  width: 20rem;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+/* flex-grow */
+/* Definiert die Fähigkeit eines Flex Items, bei Bedarf zu wachsen. Sie akzeptiert einen einheitenlosen Wert, der als Proportion dient. Er gibt an, wie viel des verfügbaren Platzes innerhalb des Flex-Containers das Element einnehmen soll. */
+
+.three {
+  flex-grow: 4;
+}
+
+/* flex-shrink */
+/* Damit wird festgelegt, dass ein Flexelement bei Bedarf schrumpfen kann. */
+
+.one {
+  flex-shrink: 3;
+}
+
+/* flex & flex-basis */
+/* flex: flex-grow flex-shrink flex-basis */
+
+/* flex-basis gibt die Anfangsgröße des flex-Elements an, bevor der verfügbare Platz entsprechend den flex-Faktoren verteilt wird. Wird der Wert in der flex-Abkürzung weggelassen, ist der angegebene Wert die Länge Null.
+
+Wenn flex-basis auf auto gesetzt ist, wird das Element entsprechend seiner size-Eigenschaft vergrößert (die ihrerseits das Schlüsselwort auto sein kann, das die Größe des Elements auf der Grundlage seines Inhalts bestimmt). */
+
+.two {
+  flex: 2 2 10rem;
+}
+
+/* ORDER */
+
+/* Standardmäßig werden die Flex-Elemente in der Reihenfolge der Quelle angeordnet. Die Eigenschaft order steuert jedoch die Reihenfolge, in der sie im Flex-Container erscheinen. */
+
+/* .three {
+  order: -1;
+} */
+
+/* ***********************************/
+/* ALIGN SELF */
+/* diese Eigenschaft gibt die Ausrichtung für das ausgewählte Element innerhalb des Flex-Containers an */
+/* ********************************** */
+
+.flex-container-2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 20rem;
+
+  display: flex;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+.flex-end {
+  align-self: flex-end;
+}
+.center {
+  align-self: center;
+}
+.baseline {
+  align-self: baseline;
+}
+.stretch {
+  align-self: stretch;
+}
+
+.flex-item {
+  background: chartreuse;
+  padding: 5px;
+  width: 10rem;
+  margin: 5px;
+  line-height: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}

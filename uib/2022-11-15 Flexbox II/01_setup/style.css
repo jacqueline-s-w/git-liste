@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+
+/* ********************************************************* */
+
+.flex-container {
+  display: flex;
+}
+.item {
+  border: 1px solid black;
+  height: 20rem;
+  width: 20rem;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ********************************************************* */
+
+/* flex-grow */
+
+/* 
+definiert die Fähigkeit eines Flex-Items, bei bedarf zu wachsen.
+SIe akzeptiert einen einheitslosen Wert, der als Proportion dient.
+Er gibt an, wie viel des verfügbaren Platzes innerhalb des Flex-Containers
+das Element einnehmen soll
+ */
+
+/* 
+ macht nur Sinn höhere Werte als 1 zu nehmen wenn mehr als ein Element
+ einen flex-grow wert bekommt
+  */
+
+.three {
+  flex-grow: 1;
+}
+
+/* flex-shrink */
+
+/* 
+damit wird festgelegt, dass ein Flexelement bei Bedarf schrumpfen kann.
+*/
+
+.one {
+  flex-shrink: 1;
+}
+
+/* ********************************************************* */
+
+/* flex-basis */
+
+/* 
+flex-basis gibt die Anfangsgröße des Flexelements an, bevor der verfügbare Platz
+entsprechend den flex-Faktoren verteilt wird.
+Wird der Wert in der flex-Abkürzung weggelsassen, ist der angegebene Wert
+die Länge Null.
+
+Wenn flex-basis auf auto gesetzt ist, wird das Element entsprechend seiner
+size-Eigenschaft (width) vergrößert (die ihrerseits das Schlüsselwort 
+auto sein kann), das die Größe des Elements auf der Grundlage seines 
+Inhalts bestimmt,
+*/
+
+.two {
+  /* flex-basis: 10rem; */
+
+  /* flex: flex-grow | flex-shrink | flex-basis */
+  flex: 1;
+  /* flex: 0 1 auto; */
+  /* flex-grow: 0; */
+  /* flex-shrink: 1; */
+  /* flex-basis: auto; */
+}
+
+/* ********************************************************* */
+
+/* order */
+
+/* 
+Standardmäßig werden die flex-Elemente in der Reihenfolge der Quelle 
+angeordnet. Die Eigenschaft 'order' steuert jedoch die Reihenfolge, in der
+sie im flex-COntainer erscheinen.
+*/
+
+.three {
+  order: 0;
+}
+
+/* ********************************************************* */
+
+/* align-self */
+
+/* 
+Diese Eigenschaft gibt die Ausrichtung für das ausgewählte Element innerhalb
+des flex-Containers an.
+*/
+
+.flex-container-2 {
+  list-style: none;
+  height: 20rem;
+  display: flex;
+  outline: 1px solid red;
+}
+.flex-item {
+  background-color: chartreuse;
+  padding: 5px;
+  margin: 5px;
+  width: 10rem;
+  line-height: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.flex-start {
+  align-self: flex-start;
+}
+.flex-end {
+  align-self: flex-end;
+}
+.center {
+  align-self: center;
+}
+.baseline {
+  align-self: baseline;
+}
+.stretch {
+  align-self: stretch;
+}

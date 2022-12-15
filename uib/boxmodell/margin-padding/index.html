@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Block, Inline, Inline-Block</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Display</h1>
+      <section>
+        <h2>Block</h2>
+        <!-- element.classe{Text/Name}*anzahl -->
+        <!-- div.block{Block!}*4 -->
+        <div class="block">Block!</div>
+        <div class="block">Block!</div>
+        <div class="block">Block!</div>
+        <div class="block">Block!</div>
+        <ul>
+          <li>
+            Erscheint in einer neuen Zeile unterhalb es vorangehenden Elements
+          </li>
+          <li>
+            Wenn nicht anders angegeben, beträgt die Breite 100% (des
+            Elternelements)
+          </li>
+          <li><code>main, div, header, footer, ul</code></li>
+        </ul>
+      </section>
+      <!-- Emmet Befehl für die folgende section:
+
+      section>h2{Inline}+(div.inline{Inline!})*4+(ul>li*4) -->
+      <section>
+        <h2>Inline</h2>
+        <div class="inline">Inline!</div>
+        <div class="inline">Inline!</div>
+        <div class="inline">Inline!</div>
+        <div class="inline">Inline!</div>
+        <ul>
+          <li>Beginnt nicht in einer neuen Zeile</li>
+          <li>Nimmt nur so viel Platz wie nötig ein</li>
+          <li>
+            Beachtet height width, margin (außer margin-right/left) und padding
+            (außer padding-right/left) <strong>nicht</strong>
+          </li>
+          <li><code>span, em, a, code, img, cite</code></li>
+        </ul>
+      </section>
+      <sectiom>
+        <h2>Inline-Block</h2>
+        <div class="inline-block">Inline-Block!</div>
+        <div class="inline-block">Inline-Block!</div>
+        <div class="inline-block">Inline-Block!</div>
+        <div class="inline-block">Inline-Block!</div>
+        <ul>
+          <li>(kein Standardwert)</li>
+          <li>Mittelweg zwischen Inline und Block</li>
+          <li>
+            <code>height, width, margin und padding werden beachtet</code>
+          </li>
+          <li></li>
+        </ul>
+      </sectiom>
+    </main>
+  </body>
+</html>

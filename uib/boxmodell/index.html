@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alles ist eine Box</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <!-- Das '#' bewirkt lediglich, dass die Seite nach oben gescrollt wird -->
+          <li><a href="#"></a>link</li>
+          <li><a href="#"></a>link</li>
+          <li><a href="#"></a>link</li>
+        </ul>
+      </nav>
+      <h1>Intro zum Boxmodell</h1>
+    </header>
+    <!-- Container ist ein häufig verwendeter Klassenname, der anzeigt, 
+        dass er den Hauptinhalt der Seite enthält -->
+    <main class="container">
+      <!-- 'section' steht für einen eigenständigen Abschnitt des Inhalts -->
+      <section class="einstieg">
+        <h2>Alles ist eine Box</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          quod deserunt saepe, id labore cum natus officiis reiciendis! Ipsum
+          nostrum iste tempore nulla reiciendis voluptas perferendis atque
+          dolores vero dolore.
+        </p>
+      </section>
+      <section class="hauptinhalt">
+        <h2>Hauptinhalt</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          voluptate modi accusantium et, velit sequi, harum quod repellat qui
+          corrupti ipsum recusandae praesentium quis hic sapiente, molestiae
+          repudiandae veritatis facere! Nobis excepturi perferendis sit fugiat,
+          libero, iure laudantium dignissimos, mollitia sunt amet officia ipsum
+          tempore. Cupiditate modi, quisquam nesciunt tempore, suscipit
+          architecto laborum neque distinctio sed perspiciatis asperiores, hic
+          corrupti! Nesciunt, ipsum quidem consequatur nam sapiente eaque?
+          Consectetur dignissimos, magni quam aut veritatis doloremque.
+          Consequatur ratione quisquam impedit animi? Nulla libero, laboriosam
+          quae consequuntur ratione sint fugit quasi esse expedita. Accusamus,
+          explicabo. Quasi eos totam labore! Aut consequuntur, est sunt non
+          quidem numquam. Sint praesentium obcaecati eos provident repellendus
+          aliquam ut nemo sed a, consequuntur, commodi quod enim dolore
+          eligendi! Ut, earum quo saepe suscipit perspiciatis voluptates
+          voluptate magni exercspan itationem delectus eveniet? Sed, odit? Enim
+          hic fuga tempora, voluptatibus dolorum culpa numquam qui amet corporis
+          ad deserunt fugiat voluptates distinctio?
+        </p>
+      </section>
+      <section class="article-section">
+        <!-- Das Element 'article' steht für einen Inhaltsabschnitt, 
+            der einen unabhängigen Teil eines DOkuments oder einer Website bildet, 
+            z. B. einen Zeitschriften- oder Zeitungsartikel oder einen Blogeintrag -->
+        <article>
+          <h3>Article Titel</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            quaerat reiciendis accusamus in consequuntur, nostrum molestias
+            laborum a, expedita fugit provident, vero doloribus asperiores nisi
+            eius quis pariatur natus delectus?
+          </p>
+        </article>
+        <article>
+          <h3>Anderer Article Titel</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            quaerat reiciendis accusamus in consequuntur, nostrum molestias
+            laborum a, expedita fugit provident, vero doloribus asperiores nisi
+            eius quis pariatur natus delectus?
+          </p>
+        </article>
+      </section>
+      <!-- Ende des Artikelteils -->
+      <section class="aside-section">
+        <div>
+          <p>
+            Das <code>div</code> element ist ein generischer, block-level
+            Container für Inhalt. Es hat keine auswirkungen auf den Inhalt oder
+            das Layout, außer wenn es im CSS gestyled wird.
+          </p>
+        </div>
+        <!-- 'aside' stellt einen Teil des Dokuments dar,
+             dessen Inhalt nur indirekt mit dem Hauptinhalt des Douments verbunden ist -->
+        <aside>
+          Das <code>span</code> Element ist auch ein generischer Container
+          welcher es uns erlaubt Elemente <strong>inline</strong> zu stylen. Sie
+          stellt nicht dar - wir verwenden sie nur, um Elemente für die
+          Gestaltung zu gruppieren.
+        </aside>
+      </section>
+    </main>
+    <!-- Ein Footer enthält in der Regel Informationen über den Autor des Abschnitts, Urheberrechtsdaten oder Links zu anderen Seiten . (Impressum, oder Links zur Homepage) -->
+    <!-- &copy; = copyright symbol -->
+    <footer>
+      <p>Manuel Fahrenholz &copy;DCI</p>
+    </footer>
+  </body>
+</html>

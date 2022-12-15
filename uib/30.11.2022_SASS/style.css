@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #cd6799;
+}
+
+h2 {
+  color: rgb(63, 152, 152);
+}
+
+.vs-container img {
+  width: 200px;
+  height: 200px;
+}
+.vs-container span {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

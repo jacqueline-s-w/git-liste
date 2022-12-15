@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+/* *************************** */
+
+header {
+  color: #efefef;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 2rem;
+  text-align: right;
+}
+
+p {
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+form {
+  max-width: 33%;
+  margin: 0 auto;
+}
+
+legend {
+  background-color: rgba(0, 0, 0, 0.719);
+  color: #efefef;
+  padding: 0.6rem;
+}
+
+label {
+  display: inline-block;
+  width: 14rem;
+  padding: 0.5rem;
+}
+
+fieldset {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 2px 3px;
+}
+
+label[for="experience"] {
+  vertical-align: top;
+  padding: 0;
+}
+
+label[for="reference"] {
+  width: 16rem;
+}
+
+.experience {
+  margin: 2rem 0;
+}
+
+textarea {
+  padding: 5px;
+  font-family: inherit;
+}
+
+.submit {
+  width: 20%;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px;
+  border-radius: 1.5rem;
+  outline: none;
+  color: #efefef;
+  background-color: cornflowerblue;
+  margin: 3rem 0;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(57, 122, 243);
+}
