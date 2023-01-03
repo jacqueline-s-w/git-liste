@@ -10,7 +10,7 @@
 
 #### [String und Grundlegende String-Methoden](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2022-12-15%20String%20und%20Grundlegende%20String-Methoden)
 
-#### [Numbers + Math](https://github.com/jacqueline-s-w/git-liste/tree/main/boxmodell)
+#### [Numbers + Math](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2023-01-03%20Numbers%20%2B%20Math)
 
 ---
 
