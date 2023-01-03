@@ -2,6 +2,20 @@
 
 ### Click the links below to go directly to the respective .md file
 
+### PB / JS
+
+#### [Einführung JS, Statements, Variablen und Datentypen](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2022-12-13%20Einf%C3%BChrung%20JS%2C%20Statements%2C%20Variablen%20und%20Datentypen)
+
+#### [Expression, Änderung von Variablen und Coersion](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2022-12-14%20Expression%2C%20%C3%84nderung%20von%20Variablen%20und%20Coersion)
+
+#### [String und Grundlegende String-Methoden](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2022-12-15%20String%20und%20Grundlegende%20String-Methoden)
+
+#### [Numbers + Math](https://github.com/jacqueline-s-w/git-liste/tree/main/boxmodell)
+
+---
+
+### Cheatsheets
+
 [**Git Befehle**](https://github.com/jacqueline-s-w/git-liste/blob/main/git-befehle.md)
 
 [**Markdown Befehle**](https://github.com/jacqueline-s-w/git-liste/blob/main/markdown-befehle.md)
@@ -9,6 +23,10 @@
 [**Terminal Cheat-Sheet**](https://github.com/jacqueline-s-w/git-liste/blob/main/terminal-cheat-sheet.md)
 
 [**HTML und CSS Cheat-Sheets**](https://github.com/jacqueline-s-w/git-liste/blob/main/html-css-cheatsheets.md)
+
+---
+
+### UIB
 
 #### [Boxmodell](https://github.com/jacqueline-s-w/git-liste/tree/main/boxmodell)
 
@@ -27,6 +45,23 @@
 #### [Forms](https://github.com/jacqueline-s-w/git-liste/tree/main/2022-11-08%20Forms)
 
 #### [Forms Styling](https://github.com/jacqueline-s-w/git-liste/tree/main/2022-11-09%20Forms%20Styling)
+
+#### [Responsive Design](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/2022-11-10%20Responsive%20Design)
+
+#### [Layout + Flexbox I](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/2022-11-14%20Layout%20%2B%20Flexbox%20I)
+
+#### [Flexbox II](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/2022-11-15%20Flexbox%20II)
+
+#### [Flex Wiederholung + Grid part 1](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/21.11.2022_flex_wiederholung_%2B_grid_part_one_22.11.2022)
+
+#### [Grid Part 2](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/23.11.2022_Grid_Tag_Part_2)
+
+#### [Grid Area und Animation](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/24.11.2022_Grid_Area_und_Animation)
+
+#### [Animations](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/29.11.2022_animations)
+
+#### [SASS](https://github.com/jacqueline-s-w/git-liste/tree/main/uib/30.11.2022_SASS)
+
 ---
 
 ### Info Graphics
