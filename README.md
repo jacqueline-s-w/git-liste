@@ -12,6 +12,8 @@
 
 #### [Numbers + Math](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2023-01-03%20Numbers%20%2B%20Math)
 
+#### [Logisches Denken I, Umgang mit Boolean](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2023-01-04%20Logisches%20Denken%20I%2C%20Umgang%20mit%20Boolean)
+
 ---
 
 ### Cheatsheets
