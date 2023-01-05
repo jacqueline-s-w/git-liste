@@ -14,6 +14,8 @@
 
 #### [Logisches Denken I, Umgang mit Boolean](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2023-01-04%20Logisches%20Denken%20I%2C%20Umgang%20mit%20Boolean)
 
+#### [Arrays und Array-Methoden](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/202301-05%20Arrays%20und%20Array-Methoden)
+
 ---
 
 ### Cheatsheets
