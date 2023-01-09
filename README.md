@@ -16,6 +16,8 @@
 
 #### [Arrays und Array-Methoden](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/202301-05%20Arrays%20und%20Array-Methoden)
 
+#### [Programm, Algorithmen, if-else](https://github.com/jacqueline-s-w/git-liste/tree/main/javascript/2023-01-09%20Programm%2C%20Algorithmen%2C%20if-else)
+
 ---
 
 ### Cheatsheets
